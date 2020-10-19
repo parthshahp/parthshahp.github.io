@@ -7,7 +7,8 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #5f5f79;
     /* background: linear-gradient(#e66465, #9198e5); */
-    background: linear-gradient(rgba(65,59,93,1) 27%, rgba(47,49,61,1) 75%);
+    /* background: linear-gradient(rgba(65,59,93,1) 27%, rgba(47,49,61,1) 75%); */
+    background: rgb(48, 53, 66);
     color: #c0c0c4;
 }
 button {
@@ -23,7 +24,8 @@ header {
     margin: auto;
     height: 4vh;
     align-items: center;
-    background-color: #5f5f79;
+    /* background-color: #5f5f79; */
+    background: rgb(74, 83, 105)
 }
 hr {
     width: 45%;
@@ -116,12 +118,31 @@ nav {
     list-style: none;
 }
 .projects {
-    width: 40%;
+    /* width: 40%; */
     margin: auto;
+    display: flex;
+    /* background: black; */
+    margin-top: 50px;
 }
 h2 {
     font-weight: 500;
 }
 .resume-div {
     margin-left: 30%;
+}
+
+.projects-section {
+    /* display: flex; */
+    /* background: black; */
+    width: 40%;
+    margin: auto;
+}
+
+.projects-section img {
+    width: 300px;
+    height: 245px;
+}
+
+.gotbias img {
+    margin-left: 50px;
 }
