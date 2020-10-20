@@ -137,11 +137,11 @@ h2 {
     font-weight: 500;
 }
 .resume-div {
-    margin-left: 30%;
+    /* margin-left: 35%; */
 }
 .resume-div img {
-    width: 50%;
-    margin-top: 20px;
+    width: 768px;
+    margin-top: 40px;
 }
 
 .projects-section {
@@ -178,3 +178,28 @@ h2 {
     top: 0;
     width: 100%;
   }
+  .resume-page {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      /* background: red; */
+      flex-direction: column;
+      margin-top: 40px;
+  }
+  .button-download-resume {
+    border: none;
+    background: rgb(62, 63, 63);
+    background-color: #5f5f79;
+    color: #c0c0c4;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;   
+    box-shadow: 2px 2px black;
+    transition-duration: 400ms;
+    
+}
+
+.button-download-resume:hover {
+    transform: scale(1.1);
+}
