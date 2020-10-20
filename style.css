@@ -51,12 +51,13 @@ nav {
     justify-content: left;
     list-style: none;
 }
-.nav-link {
+.nav-links a {
     font-size: 18px;
     text-decoration: none;
     margin-right: 40px;
     color: #c0c0c4;
 }
+
 .navigation {
     margin-left: 10vh;
     overflow: hidden;
@@ -140,6 +141,7 @@ h2 {
 }
 .resume-div img {
     width: 50%;
+    margin-top: 20px;
 }
 
 .projects-section {
@@ -158,6 +160,18 @@ h2 {
     margin-left: 40px;
 }
 
+.stryker:hover {
+    transform: scale(1.1);
+}
+.stryker {
+    transition-duration: 400ms;
+}
+.gotbias:hover {
+    transform: scale(1.1);
+}
+.gotbias {
+    transition-duration: 400ms;
+}
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
     position: fixed;
