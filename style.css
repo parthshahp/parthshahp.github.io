@@ -17,6 +17,7 @@ button {
 html,
 body {
   min-height: 100%;
+  margin-bottom: 50px;
 }
 header {
     display: flex;
@@ -25,7 +26,7 @@ header {
     height: 4vh;
     align-items: center;
     /* background-color: #5f5f79; */
-    background: rgb(74, 83, 105)
+    background: rgb(31, 35, 44)
 }
 hr {
     width: 45%;
@@ -55,6 +56,10 @@ nav {
     text-decoration: none;
     margin-right: 40px;
     color: #c0c0c4;
+}
+.navigation {
+    margin-left: 10vh;
+    overflow: hidden;
 }
 .cart {
     flex: 1;
@@ -104,7 +109,7 @@ nav {
     box-shadow: 2px 2px black;
 }
 .cover img {
-    height: 25vh;   
+    height: 30vh;   
     filter: drop-shadow(0px 5px 3px black);
     border-radius: 50%;
 }
@@ -113,6 +118,9 @@ nav {
     width: 40%;
     margin: auto;
     align-items: center;
+}
+.contactInfo {
+    margin-top: 10px;
 }
 .contactInfo-list-items {
     list-style: none;
@@ -130,6 +138,9 @@ h2 {
 .resume-div {
     margin-left: 30%;
 }
+.resume-div img {
+    width: 50%;
+}
 
 .projects-section {
     /* display: flex; */
@@ -139,10 +150,17 @@ h2 {
 }
 
 .projects-section img {
-    width: 300px;
-    height: 245px;
+    width: 240px;
+    height: 185px;
 }
 
 .gotbias img {
-    margin-left: 50px;
+    margin-left: 40px;
 }
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
