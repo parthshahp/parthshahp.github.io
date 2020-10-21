@@ -29,7 +29,8 @@ header {
     background: rgb(31, 35, 44)
 }
 hr {
-    width: 45%;
+    /* width: 45%; */
+    width: 1200px;
     margin: auto;
 }
 .logo-container, .nav-links, .cart {
@@ -70,49 +71,32 @@ nav {
     display: flex;
     width: 40%;
     margin: auto;
-    min-height: 50vh;
+    min-height: 40vh;
     align-items: center;
 }
 .introduction {
     flex: 1;
-    margin-right: 50px;
+    margin-right: 5px;
 }
 .intro-text h1 {
     font-size: 44px;
     font-weight: 500;
+    margin-bottom: 0px;
 }
 .intro-text p {
-    margin-top: 5px;
     font-size: 22px;
 }
-.cta {
+.intro-description {
     padding: 10px 0px 0px 0px;
-}
-.cta-select {
-    border: none;
-    background: rgb(62, 63, 63);
-    color: #c0c0c4;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 16px;   
-    box-shadow: 2px 2px black;
-}
-.cta-add {
-    border: none;
-    background: rgb(62, 63, 63);
-    color: #c0c0c4;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
     font-size: 16px;
-    margin: 15px 0px 0px 15px;
-    box-shadow: 2px 2px black;
 }
-.cover img {
-    height: 30vh;   
+
+.profile-image img {
+    height: 25vh;   
     filter: drop-shadow(0px 5px 3px black);
     border-radius: 50%;
+}
+.profile-image {
 }
 .contactSection {
     /* display: flex; */
@@ -123,16 +107,10 @@ nav {
 .contactInfo {
     margin-top: 10px;
 }
-.contactInfo-list-items {
+.contactInfo li {
     list-style: none;
 }
-.projects {
-    /* width: 40%; */
-    margin: auto;
-    display: flex;
-    /* background: black; */
-    margin-top: 50px;
-}
+
 h2 {
     font-weight: 500;
 }
@@ -145,19 +123,16 @@ h2 {
 }
 
 .projects-section {
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     /* background: black; */
-    width: 40%;
+    width: 1080px;
     margin: auto;
 }
 
 .projects-section img {
     width: 240px;
     height: 185px;
-}
-
-.gotbias img {
-    margin-left: 40px;
 }
 
 .stryker:hover {
@@ -170,6 +145,12 @@ h2 {
     transform: scale(1.1);
 }
 .gotbias {
+    transition-duration: 400ms;
+}
+.cropnetwork:hover {
+    transform: scale(1.1);
+}
+.cropnetwork {
     transition-duration: 400ms;
 }
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -202,4 +183,30 @@ h2 {
 
 .button-download-resume:hover {
     transform: scale(1.1);
+}
+
+.button-download-resume:focus {
+    outline: none;
+    /* box-shadow: none; */
+}
+
+.exp {
+    background: rgb(31, 35, 44);
+    margin-left: 50px;
+    /* border: 2px solid black; */
+    margin-bottom: 35px;
+}
+
+.projects-list {
+    padding-top: 20px;
+}
+
+.gold-word {
+    color: gold;
+}
+.blue-word {
+    color: rgb(79, 120, 255);
+}
+.green-word {
+    color: rgb(21, 173, 1);
 }
