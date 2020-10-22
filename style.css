@@ -33,6 +33,9 @@ hr {
     width: 1200px;
     margin: auto;
 }
+a {
+    text-decoration: none;
+}
 .logo-container, .nav-links, .cart {
     margin-right: 150px;
     display: flex;
@@ -199,7 +202,10 @@ h2 {
     padding-top: 20px;
 }
 
-.gold-word {
+.gt-link {
+    color: rgb(255, 237, 134);
+}
+.gt-link:hover {
     color: gold;
 }
 .blue-word {
@@ -208,8 +214,11 @@ h2 {
 .green-word {
     color: rgb(21, 173, 1);
 }
-.red-word {
+.email-link {
     color: rgb(233, 119, 111);
+}
+.email-link:hover {
+    color: rgb(230, 80, 69);
 }
 .project-content {
     padding: 7px 20px;
