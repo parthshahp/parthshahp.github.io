@@ -58,6 +58,9 @@ nav {
     margin-right: 40px;
     color: #c0c0c4;
 }
+.nav-links a:hover {
+    color: white;
+}
 
 .navigation {
     margin-left: 10vh;
@@ -73,6 +76,7 @@ nav {
     margin: auto;
     min-height: 40vh;
     align-items: center;
+    padding-top: 20px;
 }
 .introduction {
     flex: 1;
@@ -96,19 +100,12 @@ nav {
     filter: drop-shadow(0px 5px 3px black);
     border-radius: 50%;
 }
-.profile-image {
-}
+
 .contactSection {
     /* display: flex; */
     width: 40%;
     margin: auto;
     align-items: center;
-}
-.contactInfo {
-    margin-top: 10px;
-}
-.contactInfo li {
-    list-style: none;
 }
 
 h2 {
@@ -153,12 +150,7 @@ h2 {
 .cropnetwork {
     transition-duration: 400ms;
 }
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+
   .resume-page {
       display: flex;
       align-items: center;
@@ -216,11 +208,28 @@ h2 {
 .green-word {
     color: rgb(21, 173, 1);
 }
+.red-word {
+    color: rgb(233, 119, 111);
+}
 .project-content {
-    padding-left: 20px;
-    padding-top: 7px;
+    padding: 7px 20px;
+    display: flex;
+    flex-direction: column;
 }
 .project-title {
     font-weight: 550;
-    font-size: 16px;
+    font-size: 18px;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: 10;
+}
+.project-description {
+    flex: 1;
+}
+.project-description-footer {
+    color: #a2a2b8;
 }
